@@ -23,4 +23,4 @@ Compose file version 3 reference and Guidelines:  https://docs.docker.com/compos
 4. While in the `docker` directory, build the `docker-compose.yml` file
 5. To build this docker-compose file, the command is `docker-compose up -d`
 6. Check to ensure all your containers are running
-7. To remove all the containers that have been launched from the docker-compose file, run the command `docker-compose down`
+7. To stop and remove all the containers that have been launched from the docker-compose file, run the command `docker-compose down`. Note that you should still remain in the `docker` directory when you run this command
