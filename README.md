@@ -17,7 +17,7 @@ Compose file version 3 reference and Guidelines:  https://docs.docker.com/compos
 
 **Steps to create docker-compose and run the containers**
 
-1. Create a folder called docker
+1. Create a folder named `docker`
 2. Write the sample YAML file in "docker-compose.yml" file
-3. To build this docker-compose file, the syntax is docker-compose up -d
+3. To build this docker-compose file, the command is `docker-compose up -d`
 4. Ensure all your containers are running
